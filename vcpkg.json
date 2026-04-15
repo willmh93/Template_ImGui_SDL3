@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg-configuration.schema.json",
+  "name": "app",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "glad",
+    "sdl3",
+    "freetype",
+    "nanosvg",
+    "libwebp",
+    "stb",
+    {
+      "name": "imgui",
+      "features": [
+        "docking-experimental",
+        "freetype",
+        "sdl3-binding",
+        "opengl3-binding"
+      ]
+    }
+  ]
+}
