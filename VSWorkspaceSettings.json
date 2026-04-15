@@ -1,0 +1,12 @@
+{
+  "ExcludedItems": [
+    "vcpkg/",
+    "vcpkg-installed/",
+    "LICENSE",
+    "README.md",
+    ".unversioned",
+    ".gitattributes",
+    ".editorconfig",
+    "VSWorkspaceSettings.json"
+  ]
+}
